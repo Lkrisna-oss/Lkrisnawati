@@ -2,107 +2,203 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Personal academic website of Subekti Ari Santoso." />
-  <title>Subekti Ari Santoso | Lecturer & Researcher</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Personal academic website of Luh Krisnawati, S.T., M.T., Lecturer and Researcher in Electrical Engineering at UPN Veteran Jakarta."
+  >
+
+  <meta
+    name="author"
+    content="Luh Krisnawati, S.T., M.T."
+  >
+
+  <title>
+    Luh Krisnawati, S.T., M.T. | Electrical Engineering
+  </title>
+
+
+  <!-- Google Fonts -->
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
 
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
     rel="stylesheet"
-  />
+  >
 
-  <link rel="stylesheet" href="style.css" />
+
+  <!-- Main stylesheet -->
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
 </head>
+
 
 <body>
 
-  <!-- ================= HEADER ================= -->
+
+  <!-- =====================================================
+       HEADER
+  ====================================================== -->
 
   <header class="site-header">
 
-    <a class="brand" href="#home">
-      Subekti Ari Santoso
+    <a
+      href="#home"
+      class="brand"
+    >
+      Luh Krisnawati
     </a>
+
 
     <button
       class="menu-toggle"
       id="menuToggle"
       aria-label="Open navigation"
+      aria-expanded="false"
     >
+
       <span></span>
       <span></span>
       <span></span>
+
     </button>
 
+
     <nav id="nav">
-      <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-      <a href="#publications">Publications</a>
-      <a href="#teaching">Teaching</a>
-      <a href="#contact">Contact</a>
+
+      <a href="#about">
+        About
+      </a>
+
+      <a href="#research">
+        Research
+      </a>
+
+      <a href="#experience">
+        Experience
+      </a>
+
+      <a href="#education">
+        Education
+      </a>
+
+      <a href="#publications">
+        Publications
+      </a>
+
+      <a href="#teaching">
+        Teaching
+      </a>
+
+      <a href="#contact">
+        Contact
+      </a>
+
     </nav>
 
   </header>
 
 
-  <!-- ================= MAIN ================= -->
+
+  <!-- =====================================================
+       MAIN CONTENT
+  ====================================================== -->
 
   <main>
 
-    <!-- ================= HERO ================= -->
 
-    <section class="hero" id="home">
+    <!-- ===================================================
+         HERO
+    ==================================================== -->
+
+    <section
+      class="hero"
+      id="home"
+    >
 
       <div class="hero-inner">
+
 
         <p class="eyebrow">
           LECTURER · RESEARCHER · ELECTRICAL ENGINEER
         </p>
 
+
         <h1>
-          Subekti Ari<br />
-          <em>Santoso</em>
+
+          Luh Krisnawati
+
+          <br>
+
+          <em>S.T., M.T.</em>
+
         </h1>
 
+
         <p class="hero-description">
-          Lecturer and researcher working in electrical engineering,
-          with interests in antennas, microwave engineering,
-          electromagnetic waves, metasurfaces, and wireless communication.
+
+          Lecturer and researcher in Electrical Engineering
+          with interests in electrical power engineering,
+          renewable energy, power systems, and related
+          engineering applications.
+
         </p>
+
 
         <div class="hero-actions">
 
           <a
-            class="button primary"
             href="#research"
+            class="button primary"
           >
             Explore my research
           </a>
 
+
           <a
-            class="button secondary"
             href="#contact"
+            class="button secondary"
           >
-            Get in touch
+            Academic profiles
           </a>
 
         </div>
 
+
         <div class="scroll-note">
+
           <span></span>
+
           Scroll to explore
+
         </div>
 
       </div>
 
 
-      <!-- Decorative electromagnetic-wave graphic -->
+
+      <!-- Decorative graphic -->
 
       <div
         class="hero-orbit"
@@ -110,11 +206,14 @@
       >
 
         <div class="orbit orbit-1"></div>
+
         <div class="orbit orbit-2"></div>
+
         <div class="orbit orbit-3"></div>
 
+
         <div class="signal signal-1">
-          λ
+          ⚡
         </div>
 
         <div class="signal signal-2">
@@ -130,7 +229,10 @@
     </section>
 
 
-    <!-- ================= ABOUT ================= -->
+
+    <!-- ===================================================
+         ABOUT
+    ==================================================== -->
 
     <section
       class="section about"
@@ -141,37 +243,64 @@
         01 — ABOUT
       </div>
 
+
       <div class="section-content two-column">
+
 
         <div>
 
           <h2>
-            Engineering ideas into<br />
-            <em>research.</em>
+
+            Engineering knowledge
+            into
+
+            <br>
+
+            <em>meaningful solutions.</em>
+
           </h2>
 
         </div>
 
 
+
         <div class="prose">
 
           <p>
-            I am an electrical engineering lecturer and researcher
-            interested in electromagnetic systems and their applications
-            in modern wireless technologies.
+
+            I am a lecturer and researcher in Electrical
+            Engineering at Universitas Pembangunan Nasional
+            "Veteran" Jakarta (UPNVJ).
+
           </p>
 
-          <p>
-            My work combines antenna engineering, microwave technology,
-            electromagnetic simulation and measurement, with emerging
-            topics such as metasurfaces, reconfigurable intelligent
-            surfaces and integrated sensing and communication.
-          </p>
 
           <p>
-            I also enjoy teaching and developing outcome-based engineering
-            education, particularly in courses related to signals,
-            mathematics, electronics and communication systems.
+
+            My academic interests are focused on electrical
+            power engineering, with particular interests in
+            power systems, renewable energy, and engineering
+            applications related to electrical energy systems.
+
+          </p>
+
+
+          <p>
+
+            In addition to research, I am involved in academic
+            activities including teaching, curriculum development,
+            quality assurance, and the continuous improvement of
+            engineering education.
+
+          </p>
+
+
+          <p>
+
+            I am interested in connecting engineering theory,
+            practical applications, and education to support
+            reliable and sustainable electrical energy systems.
+
           </p>
 
         </div>
@@ -181,7 +310,10 @@
     </section>
 
 
-    <!-- ================= RESEARCH ================= -->
+
+    <!-- ===================================================
+         RESEARCH
+    ==================================================== -->
 
     <section
       class="section research"
@@ -192,14 +324,22 @@
         02 — RESEARCH
       </div>
 
+
       <div class="section-content">
 
+
         <h2>
-          Research <em>interests</em>
+
+          Research
+
+          <em>interests</em>
+
         </h2>
 
 
+
         <div class="research-grid">
+
 
           <!-- Research 01 -->
 
@@ -209,17 +349,22 @@
               01
             </span>
 
+
             <h3>
-              Antennas & Microwave Engineering
+              Electrical Power Engineering
             </h3>
 
+
             <p>
-              High-gain antennas, resonant cavity antennas,
-              microstrip antennas, RF structures and electromagnetic
-              characterization.
+
+              Electrical power systems, electrical energy
+              applications, and engineering approaches for
+              reliable and efficient power systems.
+
             </p>
 
           </article>
+
 
 
           <!-- Research 02 -->
@@ -230,16 +375,22 @@
               02
             </span>
 
+
             <h3>
-              Metasurfaces & Metamaterials
+              Renewable Energy
             </h3>
 
+
             <p>
-              Engineered electromagnetic surfaces for controlling
-              wave propagation, radiation and spatial filtering.
+
+              Renewable energy technologies and their
+              integration into electrical energy systems
+              to support sustainable energy development.
+
             </p>
 
           </article>
+
 
 
           <!-- Research 03 -->
@@ -250,17 +401,22 @@
               03
             </span>
 
+
             <h3>
-              Wireless & ISAC
+              Power Systems
             </h3>
 
+
             <p>
-              Integrated sensing and communication, interference
-              mitigation, angle-selective surfaces and next-generation
-              wireless systems.
+
+              Analysis and application of electrical power
+              systems, including system reliability,
+              operation, protection, and engineering design.
+
             </p>
 
           </article>
+
 
 
           <!-- Research 04 -->
@@ -271,14 +427,18 @@
               04
             </span>
 
+
             <h3>
-              EM Simulation & Measurement
+              Electrical Engineering Applications
             </h3>
 
+
             <p>
-              Electromagnetic modelling, antenna optimization,
-              S-parameters, radiation characteristics and experimental
-              validation.
+
+              Applied electrical engineering research
+              connecting theoretical concepts with practical
+              engineering and educational applications.
+
             </p>
 
           </article>
@@ -290,7 +450,10 @@
     </section>
 
 
-    <!-- ================= EXPERIENCE ================= -->
+
+    <!-- ===================================================
+         EXPERIENCE
+    ==================================================== -->
 
     <section
       class="section experience"
@@ -301,36 +464,56 @@
         03 — EXPERIENCE
       </div>
 
+
       <div class="section-content">
 
+
         <h2>
-          Academic & professional <em>journey</em>
+
+          Academic & professional
+
+          <em>journey</em>
+
         </h2>
+
 
 
         <div class="timeline">
 
-          <!-- Experience 01 -->
+
+          <!-- Current -->
 
           <div class="timeline-item">
+
 
             <div class="timeline-year">
               Present
             </div>
 
+
             <div>
 
               <h3>
-                Lecturer / Researcher
+                Lecturer
               </h3>
 
+
               <p>
-                Electrical Engineering · Indonesia
+                Program Studi Teknik Elektro
               </p>
 
+
+              <p>
+                Fakultas Teknik · UPN Veteran Jakarta
+              </p>
+
+
               <p class="muted">
-                Teaching, curriculum development, OBE implementation,
-                research and academic activities.
+
+                Teaching, research, academic administration,
+                curriculum development, and engineering
+                education activities.
+
               </p>
 
             </div>
@@ -338,27 +521,35 @@
           </div>
 
 
-          <!-- Experience 02 -->
+
+          <!-- Coordinator -->
 
           <div class="timeline-item">
 
+
             <div class="timeline-year">
-              2020–2023
+              Academic
             </div>
+
 
             <div>
 
               <h3>
-                Research Associate
+                Coordinator of Electrical Engineering Program
               </h3>
 
+
               <p>
-                Nanyang Technological University · Singapore
+                Fakultas Teknik · UPN Veteran Jakarta
               </p>
 
+
               <p class="muted">
-                Research involving RF and antenna engineering
-                in collaboration with a defense research environment.
+
+                Academic leadership, curriculum development,
+                quality improvement, and coordination of
+                program-level academic activities.
+
               </p>
 
             </div>
@@ -366,27 +557,34 @@
           </div>
 
 
-          <!-- Experience 03 -->
+
+          <!-- Academic rank -->
 
           <div class="timeline-item">
 
+
             <div class="timeline-year">
-              2018–2020
+              Academic Rank
             </div>
+
 
             <div>
 
               <h3>
-                Master of Engineering
+                Lektor
               </h3>
 
+
               <p>
-                Communication Engineering · Thailand / Germany
+                Electrical Engineering
               </p>
 
+
               <p class="muted">
-                Graduate research in resonant cavity antennas,
-                frequency selective surfaces and electromagnetic structures.
+
+                Academic position in the field of Electrical
+                Engineering.
+
               </p>
 
             </div>
@@ -400,7 +598,10 @@
     </section>
 
 
-    <!-- ================= EDUCATION ================= -->
+
+    <!-- ===================================================
+         EDUCATION
+    ==================================================== -->
 
     <section
       class="section education"
@@ -411,57 +612,69 @@
         04 — EDUCATION
       </div>
 
+
       <div class="section-content">
+
 
         <h2>
           Education
         </h2>
 
 
+
         <div class="education-grid">
-
-          <!-- Master -->
-
-          <article>
-
-            <span>
-              2018 — 2020
-            </span>
-
-            <h3>
-              Master of Engineering
-            </h3>
-
-            <p>
-              Communication Engineering
-            </p>
-
-            <small>
-              KMUTNB / TGGS · Thailand<br />
-              Research & thesis work with RWTH Aachen · Germany
-            </small>
-
-          </article>
 
 
           <!-- Bachelor -->
 
           <article>
 
+
             <span>
               Undergraduate
             </span>
 
+
             <h3>
-              Bachelor of Electrical Engineering
+              Bachelor of Engineering
             </h3>
+
 
             <p>
               Electrical Engineering
             </p>
 
+
             <small>
-              Indonesia
+              Universitas Brawijaya
+            </small>
+
+          </article>
+
+
+
+          <!-- Master -->
+
+          <article>
+
+
+            <span>
+              Graduate
+            </span>
+
+
+            <h3>
+              Master of Engineering
+            </h3>
+
+
+            <p>
+              Electrical Engineering
+            </p>
+
+
+            <small>
+              Institut Teknologi Sepuluh Nopember
             </small>
 
           </article>
@@ -473,7 +686,10 @@
     </section>
 
 
-    <!-- ================= PUBLICATIONS ================= -->
+
+    <!-- ===================================================
+         PUBLICATIONS
+    ==================================================== -->
 
     <section
       class="section publications"
@@ -484,121 +700,163 @@
         05 — PUBLICATIONS
       </div>
 
+
       <div class="section-content">
 
 
         <div class="publication-heading">
 
+
           <h2>
-            Selected <em>work</em>
+
+            Research
+
+            <em>work</em>
+
           </h2>
 
+
           <p>
-            Selected research topics and publications can be listed here.
-            Replace the placeholders below with DOI or Google Scholar links.
+
+            My publications and scholarly work can be
+            explored through my academic profiles.
+
           </p>
 
         </div>
 
 
+
         <div class="publication-list">
 
 
-          <!-- Publication 01 -->
+          <!-- Publication / Research Area 01 -->
 
           <article class="publication">
+
 
             <span>
               01
             </span>
 
+
             <div>
 
               <h3>
-                Performance Evaluation of an Aperture-Coupled
-                Microstrip Patch Antenna for Sub-6 GHz Applications
+                Electrical Power Engineering
               </h3>
 
+
               <p>
-                Journal article · Antenna design and electromagnetic
-                performance evaluation
+
+                Research and scholarly activities related
+                to electrical power engineering and
+                electrical energy systems.
+
               </p>
 
             </div>
 
+
             <a
-              href="#"
+              href="https://scholar.google.com/citations?user=MJjEpBgAAAAJ&hl=en"
+              target="_blank"
+              rel="noopener"
               class="publication-link"
             >
-              View ↗
+
+              Scholar ↗
+
             </a>
 
           </article>
 
 
-          <!-- Publication 02 -->
+
+          <!-- Research Area 02 -->
 
           <article class="publication">
+
 
             <span>
               02
             </span>
 
+
             <div>
 
               <h3>
-                Broadband Resonant Cavity Antenna using a
-                Staircase-Shaped Superstrate Structure
+                Renewable Energy
               </h3>
 
+
               <p>
-                Research work · High-gain antenna and electromagnetic
-                surface engineering
+
+                Research related to renewable energy
+                applications and sustainable electrical
+                energy systems.
+
               </p>
 
             </div>
 
+
             <a
-              href="#"
+              href="https://scholar.google.com/citations?user=MJjEpBgAAAAJ&hl=en"
+              target="_blank"
+              rel="noopener"
               class="publication-link"
             >
-              View ↗
+
+              Scholar ↗
+
             </a>
 
           </article>
 
 
-          <!-- Publication 03 -->
+
+          <!-- Research Area 03 -->
 
           <article class="publication">
+
 
             <span>
               03
             </span>
 
+
             <div>
 
               <h3>
-                Angle-Selective Metasurfaces for
-                Interference-Resilient Integrated Sensing
-                and Communication
+                Electrical Engineering Applications
               </h3>
 
+
               <p>
-                Research direction · Metasurfaces, ISAC and
-                interference mitigation
+
+                Applied research connecting electrical
+                engineering concepts with practical
+                applications.
+
               </p>
 
             </div>
 
+
             <a
-              href="#"
+              href="https://scholar.google.com/citations?user=MJjEpBgAAAAJ&hl=en"
+              target="_blank"
+              rel="noopener"
               class="publication-link"
             >
-              View ↗
+
+              Scholar ↗
+
             </a>
 
           </article>
+
 
         </div>
 
@@ -607,7 +865,10 @@
     </section>
 
 
-    <!-- ================= TEACHING ================= -->
+
+    <!-- ===================================================
+         TEACHING
+    ==================================================== -->
 
     <section
       class="section teaching"
@@ -618,40 +879,49 @@
         06 — TEACHING
       </div>
 
+
       <div class="section-content">
 
+
         <h2>
-          Teaching & <em>academic work</em>
+
+          Teaching &
+
+          <em>academic work</em>
+
         </h2>
+
 
 
         <div class="teaching-grid">
 
 
-          <!-- Courses -->
+          <!-- Teaching -->
 
           <div>
 
+
             <h3>
-              Courses
+              Teaching Areas
             </h3>
+
 
             <ul>
 
               <li>
-                Mathematics for Electrical Engineering
+                Electrical Engineering
               </li>
 
               <li>
-                Digital Signal Processing
+                Electrical Power Engineering
               </li>
 
               <li>
-                Microprocessor & Microcontroller
+                Electrical Power Systems
               </li>
 
               <li>
-                Communication / Microwave Engineering
+                Renewable Energy
               </li>
 
             </ul>
@@ -659,30 +929,33 @@
           </div>
 
 
-          <!-- Academic activities -->
+
+          <!-- Academic -->
 
           <div>
 
+
             <h3>
-              Academic activities
+              Academic Activities
             </h3>
+
 
             <ul>
 
               <li>
-                Outcome-Based Education (OBE)
+                Curriculum Development
               </li>
 
               <li>
-                Curriculum development
+                Outcome-Based Education
               </li>
 
               <li>
-                RPS development and assessment design
+                Academic Quality Improvement
               </li>
 
               <li>
-                Laboratory and practical learning
+                Engineering Education
               </li>
 
             </ul>
@@ -696,7 +969,10 @@
     </section>
 
 
-    <!-- ================= CONTACT ================= -->
+
+    <!-- ===================================================
+         CONTACT
+    ==================================================== -->
 
     <section
       class="section contact"
@@ -707,45 +983,73 @@
         07 — CONTACT
       </div>
 
+
       <div class="section-content contact-inner">
 
 
         <div>
 
+
           <p class="eyebrow">
-            LET'S CONNECT
+            ACADEMIC PROFILES
           </p>
 
+
           <h2>
-            Have an idea?<br />
-            <em>Let's talk.</em>
+
+            Explore my
+
+            <br>
+
+            <em>research.</em>
+
           </h2>
 
         </div>
 
 
-        <!-- ONLY SINTA AND GOOGLE SCHOLAR -->
+
+        <!-- =================================================
+             ONLY SINTA & GOOGLE SCHOLAR
+        ================================================== -->
 
         <div class="contact-links">
 
+
+          <!-- SINTA -->
+
           <a
-            href="https://sinta.kemdiktisaintek.go.id/authors/profile/6962638"
+            href="https://sinta.kemdiktisaintek.go.id/authors/profile/5982575"
             target="_blank"
             rel="noopener"
           >
+
             SINTA
-            <span>↗</span>
+
+            <span>
+              ↗
+            </span>
+
           </a>
 
 
+
+          <!-- GOOGLE SCHOLAR -->
+
           <a
-            href="https://scholar.google.com/citations?user=rt6snBsAAAAJ&hl=en"
+            href="https://scholar.google.com/citations?user=MJjEpBgAAAAJ&hl=en"
             target="_blank"
             rel="noopener"
           >
+
             Google Scholar
-            <span>↗</span>
+
+            <span>
+              ↗
+            </span>
+
           </a>
+
 
         </div>
 
@@ -753,40 +1057,62 @@
 
     </section>
 
+
   </main>
 
 
-  <!-- ================= FOOTER ================= -->
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
 
   <footer>
 
-    <p>
-      © <span id="year"></span>
-      Subekti Ari Santoso
-    </p>
 
     <p>
-      Built with HTML, CSS & JavaScript ·
-      Hosted on GitHub Pages
+
+      ©
+      <span id="year"></span>
+
+      Luh Krisnawati, S.T., M.T.
+
     </p>
+
+
+    <p>
+
+      Electrical Engineering ·
+      UPN Veteran Jakarta
+
+    </p>
+
 
   </footer>
 
 
-  <!-- ================= BACK TO TOP ================= -->
+
+  <!-- =====================================================
+       BACK TO TOP
+  ====================================================== -->
 
   <button
     id="topButton"
     class="top-button"
     aria-label="Back to top"
   >
+
     ↑
+
   </button>
 
 
-  <!-- ================= JAVASCRIPT ================= -->
+
+  <!-- =====================================================
+       JAVASCRIPT
+  ====================================================== -->
 
   <script src="script.js"></script>
+
 
 </body>
 </html>
