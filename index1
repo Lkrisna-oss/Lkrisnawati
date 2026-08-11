@@ -1,1 +1,793 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal academic website of Subekti Ari Santoso." />
+  <title>Subekti Ari Santoso | Lecturer & Researcher</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+
+  <header class="site-header">
+
+    <a class="brand" href="#home">
+      Subekti Ari Santoso
+    </a>
+
+    <button
+      class="menu-toggle"
+      id="menuToggle"
+      aria-label="Open navigation"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav id="nav">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#publications">Publications</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+  </header>
+
+
+  <!-- ================= MAIN ================= -->
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+      <div class="hero-inner">
+
+        <p class="eyebrow">
+          LECTURER · RESEARCHER · ELECTRICAL ENGINEER
+        </p>
+
+        <h1>
+          Subekti Ari<br />
+          <em>Santoso</em>
+        </h1>
+
+        <p class="hero-description">
+          Lecturer and researcher working in electrical engineering,
+          with interests in antennas, microwave engineering,
+          electromagnetic waves, metasurfaces, and wireless communication.
+        </p>
+
+        <div class="hero-actions">
+
+          <a
+            class="button primary"
+            href="#research"
+          >
+            Explore my research
+          </a>
+
+          <a
+            class="button secondary"
+            href="#contact"
+          >
+            Get in touch
+          </a>
+
+        </div>
+
+        <div class="scroll-note">
+          <span></span>
+          Scroll to explore
+        </div>
+
+      </div>
+
+
+      <!-- Decorative electromagnetic-wave graphic -->
+
+      <div
+        class="hero-orbit"
+        aria-hidden="true"
+      >
+
+        <div class="orbit orbit-1"></div>
+        <div class="orbit orbit-2"></div>
+        <div class="orbit orbit-3"></div>
+
+        <div class="signal signal-1">
+          λ
+        </div>
+
+        <div class="signal signal-2">
+          ∿
+        </div>
+
+        <div class="signal signal-3">
+          +
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section
+      class="section about"
+      id="about"
+    >
+
+      <div class="section-label">
+        01 — ABOUT
+      </div>
+
+      <div class="section-content two-column">
+
+        <div>
+
+          <h2>
+            Engineering ideas into<br />
+            <em>research.</em>
+          </h2>
+
+        </div>
+
+
+        <div class="prose">
+
+          <p>
+            I am an electrical engineering lecturer and researcher
+            interested in electromagnetic systems and their applications
+            in modern wireless technologies.
+          </p>
+
+          <p>
+            My work combines antenna engineering, microwave technology,
+            electromagnetic simulation and measurement, with emerging
+            topics such as metasurfaces, reconfigurable intelligent
+            surfaces and integrated sensing and communication.
+          </p>
+
+          <p>
+            I also enjoy teaching and developing outcome-based engineering
+            education, particularly in courses related to signals,
+            mathematics, electronics and communication systems.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= RESEARCH ================= -->
+
+    <section
+      class="section research"
+      id="research"
+    >
+
+      <div class="section-label">
+        02 — RESEARCH
+      </div>
+
+      <div class="section-content">
+
+        <h2>
+          Research <em>interests</em>
+        </h2>
+
+
+        <div class="research-grid">
+
+          <!-- Research 01 -->
+
+          <article class="research-card">
+
+            <span class="number">
+              01
+            </span>
+
+            <h3>
+              Antennas & Microwave Engineering
+            </h3>
+
+            <p>
+              High-gain antennas, resonant cavity antennas,
+              microstrip antennas, RF structures and electromagnetic
+              characterization.
+            </p>
+
+          </article>
+
+
+          <!-- Research 02 -->
+
+          <article class="research-card">
+
+            <span class="number">
+              02
+            </span>
+
+            <h3>
+              Metasurfaces & Metamaterials
+            </h3>
+
+            <p>
+              Engineered electromagnetic surfaces for controlling
+              wave propagation, radiation and spatial filtering.
+            </p>
+
+          </article>
+
+
+          <!-- Research 03 -->
+
+          <article class="research-card">
+
+            <span class="number">
+              03
+            </span>
+
+            <h3>
+              Wireless & ISAC
+            </h3>
+
+            <p>
+              Integrated sensing and communication, interference
+              mitigation, angle-selective surfaces and next-generation
+              wireless systems.
+            </p>
+
+          </article>
+
+
+          <!-- Research 04 -->
+
+          <article class="research-card">
+
+            <span class="number">
+              04
+            </span>
+
+            <h3>
+              EM Simulation & Measurement
+            </h3>
+
+            <p>
+              Electromagnetic modelling, antenna optimization,
+              S-parameters, radiation characteristics and experimental
+              validation.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section
+      class="section experience"
+      id="experience"
+    >
+
+      <div class="section-label">
+        03 — EXPERIENCE
+      </div>
+
+      <div class="section-content">
+
+        <h2>
+          Academic & professional <em>journey</em>
+        </h2>
+
+
+        <div class="timeline">
+
+          <!-- Experience 01 -->
+
+          <div class="timeline-item">
+
+            <div class="timeline-year">
+              Present
+            </div>
+
+            <div>
+
+              <h3>
+                Lecturer / Researcher
+              </h3>
+
+              <p>
+                Electrical Engineering · Indonesia
+              </p>
+
+              <p class="muted">
+                Teaching, curriculum development, OBE implementation,
+                research and academic activities.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- Experience 02 -->
+
+          <div class="timeline-item">
+
+            <div class="timeline-year">
+              2020–2023
+            </div>
+
+            <div>
+
+              <h3>
+                Research Associate
+              </h3>
+
+              <p>
+                Nanyang Technological University · Singapore
+              </p>
+
+              <p class="muted">
+                Research involving RF and antenna engineering
+                in collaboration with a defense research environment.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- Experience 03 -->
+
+          <div class="timeline-item">
+
+            <div class="timeline-year">
+              2018–2020
+            </div>
+
+            <div>
+
+              <h3>
+                Master of Engineering
+              </h3>
+
+              <p>
+                Communication Engineering · Thailand / Germany
+              </p>
+
+              <p class="muted">
+                Graduate research in resonant cavity antennas,
+                frequency selective surfaces and electromagnetic structures.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section
+      class="section education"
+      id="education"
+    >
+
+      <div class="section-label">
+        04 — EDUCATION
+      </div>
+
+      <div class="section-content">
+
+        <h2>
+          Education
+        </h2>
+
+
+        <div class="education-grid">
+
+          <!-- Master -->
+
+          <article>
+
+            <span>
+              2018 — 2020
+            </span>
+
+            <h3>
+              Master of Engineering
+            </h3>
+
+            <p>
+              Communication Engineering
+            </p>
+
+            <small>
+              KMUTNB / TGGS · Thailand<br />
+              Research & thesis work with RWTH Aachen · Germany
+            </small>
+
+          </article>
+
+
+          <!-- Bachelor -->
+
+          <article>
+
+            <span>
+              Undergraduate
+            </span>
+
+            <h3>
+              Bachelor of Electrical Engineering
+            </h3>
+
+            <p>
+              Electrical Engineering
+            </p>
+
+            <small>
+              Indonesia
+            </small>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PUBLICATIONS ================= -->
+
+    <section
+      class="section publications"
+      id="publications"
+    >
+
+      <div class="section-label">
+        05 — PUBLICATIONS
+      </div>
+
+      <div class="section-content">
+
+
+        <div class="publication-heading">
+
+          <h2>
+            Selected <em>work</em>
+          </h2>
+
+          <p>
+            Selected research topics and publications can be listed here.
+            Replace the placeholders below with DOI or Google Scholar links.
+          </p>
+
+        </div>
+
+
+        <div class="publication-list">
+
+
+          <!-- Publication 01 -->
+
+          <article class="publication">
+
+            <span>
+              01
+            </span>
+
+            <div>
+
+              <h3>
+                Performance Evaluation of an Aperture-Coupled
+                Microstrip Patch Antenna for Sub-6 GHz Applications
+              </h3>
+
+              <p>
+                Journal article · Antenna design and electromagnetic
+                performance evaluation
+              </p>
+
+            </div>
+
+            <a
+              href="#"
+              class="publication-link"
+            >
+              View ↗
+            </a>
+
+          </article>
+
+
+          <!-- Publication 02 -->
+
+          <article class="publication">
+
+            <span>
+              02
+            </span>
+
+            <div>
+
+              <h3>
+                Broadband Resonant Cavity Antenna using a
+                Staircase-Shaped Superstrate Structure
+              </h3>
+
+              <p>
+                Research work · High-gain antenna and electromagnetic
+                surface engineering
+              </p>
+
+            </div>
+
+            <a
+              href="#"
+              class="publication-link"
+            >
+              View ↗
+            </a>
+
+          </article>
+
+
+          <!-- Publication 03 -->
+
+          <article class="publication">
+
+            <span>
+              03
+            </span>
+
+            <div>
+
+              <h3>
+                Angle-Selective Metasurfaces for
+                Interference-Resilient Integrated Sensing
+                and Communication
+              </h3>
+
+              <p>
+                Research direction · Metasurfaces, ISAC and
+                interference mitigation
+              </p>
+
+            </div>
+
+            <a
+              href="#"
+              class="publication-link"
+            >
+              View ↗
+            </a>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= TEACHING ================= -->
+
+    <section
+      class="section teaching"
+      id="teaching"
+    >
+
+      <div class="section-label">
+        06 — TEACHING
+      </div>
+
+      <div class="section-content">
+
+        <h2>
+          Teaching & <em>academic work</em>
+        </h2>
+
+
+        <div class="teaching-grid">
+
+
+          <!-- Courses -->
+
+          <div>
+
+            <h3>
+              Courses
+            </h3>
+
+            <ul>
+
+              <li>
+                Mathematics for Electrical Engineering
+              </li>
+
+              <li>
+                Digital Signal Processing
+              </li>
+
+              <li>
+                Microprocessor & Microcontroller
+              </li>
+
+              <li>
+                Communication / Microwave Engineering
+              </li>
+
+            </ul>
+
+          </div>
+
+
+          <!-- Academic activities -->
+
+          <div>
+
+            <h3>
+              Academic activities
+            </h3>
+
+            <ul>
+
+              <li>
+                Outcome-Based Education (OBE)
+              </li>
+
+              <li>
+                Curriculum development
+              </li>
+
+              <li>
+                RPS development and assessment design
+              </li>
+
+              <li>
+                Laboratory and practical learning
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section
+      class="section contact"
+      id="contact"
+    >
+
+      <div class="section-label">
+        07 — CONTACT
+      </div>
+
+      <div class="section-content contact-inner">
+
+
+        <div>
+
+          <p class="eyebrow">
+            LET'S CONNECT
+          </p>
+
+          <h2>
+            Have an idea?<br />
+            <em>Let's talk.</em>
+          </h2>
+
+        </div>
+
+
+        <!-- ONLY SINTA AND GOOGLE SCHOLAR -->
+
+        <div class="contact-links">
+
+          <a
+            href="https://sinta.kemdiktisaintek.go.id/authors/profile/6962638"
+            target="_blank"
+            rel="noopener"
+          >
+            SINTA
+            <span>↗</span>
+          </a>
+
+
+          <a
+            href="https://scholar.google.com/citations?user=rt6snBsAAAAJ&hl=en"
+            target="_blank"
+            rel="noopener"
+          >
+            Google Scholar
+            <span>↗</span>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+
+    <p>
+      © <span id="year"></span>
+      Subekti Ari Santoso
+    </p>
+
+    <p>
+      Built with HTML, CSS & JavaScript ·
+      Hosted on GitHub Pages
+    </p>
+
+  </footer>
+
+
+  <!-- ================= BACK TO TOP ================= -->
+
+  <button
+    id="topButton"
+    class="top-button"
+    aria-label="Back to top"
+  >
+    ↑
+  </button>
+
+
+  <!-- ================= JAVASCRIPT ================= -->
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+```
